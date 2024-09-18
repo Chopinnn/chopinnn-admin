@@ -13,7 +13,7 @@
             <i-ep-close @click="closeSetting"></i-ep-close>
         </div>
         <div class="out">
-            <el-button type="primary" @click="logout">退出</el-button>
+            <el-button type="primary" @click="logout">{{ $t('save') }}</el-button>
         </div>
     </el-drawer>
 </template>
