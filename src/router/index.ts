@@ -13,7 +13,7 @@ export const aboutRouter = {
 
 // 组合路由信息
 // import.meta.glob 为 vite 提供的特殊导入方式
-// 默认为懒加载模式 加入配置项 eager 取消懒加载
+// 默认为懒加载模式 加入配置项 eager 取消懒加载,可以拿到模块的导出结果
 const modules: Record<string, any> = import.meta.glob(['./modules/*.ts'], {
     eager: true
 });
